@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "sinatra", "~> 1.4"
-gem "sinatra-contrib", "~> 1.4"
+gem "sinatra-contrib", "~> 2.0", ">= 2.0.0"
 
 group :test do
   gem "rspec", "~> 3.0"
